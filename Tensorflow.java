@@ -91,7 +91,7 @@ public class Tensorflow {
 			
 			//이미지 추론
 			String PythonScriptPath = "C:\\Python\\Lib\\site-packages\\tensorflow"
-					+ "\\examples\\label_image\\label_image.py";
+					+ "\\examples\\label_image\\label_image2.py";
 			String[] cmd = new String[7];
 			cmd[0] = "Python";
 			cmd[1] = PythonScriptPath;
