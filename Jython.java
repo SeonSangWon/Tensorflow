@@ -9,6 +9,8 @@ public class Jython {
 		//이미지를 추론하는 과정에서 이미지의 경로를 지정해주어야하기 때문에
 		//upper.py 를 이용해 상의 영역을 자른 후, 이미지를 덮어씌워 분석시킨다.
 		//lower.py 를 이용해 하의 영역을 자른 후, 이미지를 덮어씌워 분석시킨다.
+		//label_image.py : 상의 영역의 이미지를 분석하여 Database에 저장
+		//label_image2.py : 하의 영역의 이미지를 분석하여 Database
 		
 		Tensorflow tf = new Tensorflow();
 		
