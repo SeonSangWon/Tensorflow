@@ -13,6 +13,7 @@ public class Jython {
 		//label_image2.py : 하의 영역의 이미지를 분석하여 Database에 해당 사진을 찾아 업데이트
 		//최종적으로 들어갈 색상 데이터 : 색상1/색상2/색상1/색상2
 		//
+		//
 		
 		Tensorflow tf = new Tensorflow();
 		
