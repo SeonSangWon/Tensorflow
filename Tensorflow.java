@@ -26,7 +26,7 @@ public class Tensorflow {
 			System.out.println();
 			System.out.println("----이미지 추론 시작----");
 			
-			//이미지 추론
+			//이미지 추론 
 			String PythonScriptPath = "C:\\Python\\Lib\\site-packages\\tensorflow"
 					+ "\\examples\\label_image\\label_image.py";
 			String[] cmd = new String[7];
