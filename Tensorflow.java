@@ -127,7 +127,6 @@ public class Tensorflow {
 		}
 	}
 	
-	
 	public void restore(String image)
 	{
 
