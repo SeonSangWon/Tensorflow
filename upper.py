@@ -38,7 +38,7 @@ lower = image[325:620, 0:600]
 cv2.imwrite(path, upper)
 #cv2.imwrite("lower.jpg", lower)
 
-#원본 이미지 복사
+#원본 이미지 복사  
 origin_path = sys.argv[1]
 copy_path = origin_path[:-4] + "-1.jpg"
 print(copy_path)
