@@ -1,6 +1,7 @@
 ﻿import cv2
 import sys
 
+
 #이미지 경로받아오기
 path = sys.argv[1]
 src = cv2.imread(path , cv2.IMREAD_COLOR)
