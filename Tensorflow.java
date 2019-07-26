@@ -129,7 +129,6 @@ public class Tensorflow {
 	
 	public void restore(String image)
 	{
-
 		try {
 			//이미지 복구작업
 			String restore = image.substring(0, image.length()-4);
