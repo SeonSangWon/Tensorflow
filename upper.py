@@ -1,7 +1,6 @@
 ﻿import cv2
 import sys
 
-
 #이미지 경로받아오기
 path = sys.argv[1]
 src = cv2.imread(path , cv2.IMREAD_COLOR)
@@ -44,6 +43,7 @@ origin_path = sys.argv[1]
 copy_path = origin_path[:-4] + "-1.jpg"
 print(copy_path)
 cv2.imwrite(copy_path, copy_file)
+
 
 #cv2.waitKey(0)
 #cv2.destroyAllWindows()
