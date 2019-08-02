@@ -44,5 +44,6 @@ copy_path = origin_path[:-6] + "-2.jpg"
 print(copy_path)
 cv2.imwrite(copy_path, copy_file)
 
+
 #cv2.waitKey(0)
 #cv2.destroyAllWindows()
