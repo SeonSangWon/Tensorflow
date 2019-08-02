@@ -28,5 +28,4 @@ public class Jython {
 		//사진 복구
 		tf.restore(image);
 	}
-
 }
