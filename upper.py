@@ -21,6 +21,7 @@ upper = image.copy()
 upper = image[0:325, 0:600]
 
 
+
 #하의 이미지 추출
 #가로 : 550 세로 : 295
 lower = image.copy()
