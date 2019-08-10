@@ -2,6 +2,7 @@ package connection;
 
 public class Jython {
 
+
 	public static void main(String[] args) {
 		//Upper_Tensorflow를 통해 전신사진을 상의영역만 자른 후, 추론
 		//Lower_Tensorflow를 통해 전신사진을 하의영역만 자른 후, 추론
