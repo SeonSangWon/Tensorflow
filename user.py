@@ -166,8 +166,3 @@ if __name__ == "__main__":
 	)
   con.commit()
   con.close()
-
-"""
-  for i in top_k:
-    print(labels[i], results[i])
-"""
